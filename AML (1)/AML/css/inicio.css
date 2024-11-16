@@ -1,0 +1,24 @@
+/* Estilos específicos para el contenido de Inicio */
+.section h2 {
+    color: #0c0c0c;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mission-text {
+    color: #333;
+    background-color: #e3f7e3;
+    border: 1px solid #99ef8f;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 15px auto;
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Efecto de relieve al pasar el puntero */
+.mission-text:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
